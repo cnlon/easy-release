@@ -1,0 +1,23 @@
+{
+  "name": "smart-release",
+  "version": "1.0.0-alpha.0",
+  "description": "",
+  "main": "smart-release.js",
+  "bin": "bin.js",
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "keywords": [
+    "release"
+  ],
+  "author": "lon <longhaohe@gmail.com> (http://lon.im)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnlon/smart-release.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cnlon/smart-release/issues"
+  },
+  "homepage": "https://github.com/cnlon/smart-release#readme"
+}
