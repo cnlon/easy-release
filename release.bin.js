@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const release = require('./release.js')
 
 const pkgPath = __dirname + '/package.json'

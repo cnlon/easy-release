@@ -1,16 +1,18 @@
 {
   "name": "smart-release",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha",
   "description": "",
   "main": "smart-release.js",
-  "bin": "bin.js",
+  "bin": {
+    "release": "release.bin.js"
+  },
   "scripts": {
     "test": "echo 'Error: no test specified' && exit 1"
   },
   "keywords": [
     "release"
   ],
-  "author": "lon <longhaohe@gmail.com> (http://lon.im)",
+  "author": "Lon <longhaohe@gmail.com> (http://lon.im)",
   "license": "MIT",
   "repository": {
     "type": "git",
