@@ -19,7 +19,7 @@ function release (pkg) {
             console.error(err.message)
             process.exit(1)
         }
-        console.log('success!\n')
+        console.log('success!')
         process.exit(0)
     })
 }
