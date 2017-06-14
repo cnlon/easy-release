@@ -1,13 +1,14 @@
 #!/usr/bin/env node
-
+const path = require('path')
 const release = require('./release.js')
 
-const pkgPath = __dirname + '/package.json'
+const pkgPath = path.resolve('./package.json')
 let pkg
 try {
     pkg = require(pkgPath)
 } catch (err) {
-    throw err
+    console.error(err.message)
+    process.exit(1)
 }
 
 release(pkg)
