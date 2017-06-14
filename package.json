@@ -1,7 +1,7 @@
 {
   "name": "smart-release",
   "version": "1.0.0-beta.0",
-  "description": "",
+  "description": "Easier to release NPM package",
   "main": "smart-release.js",
   "bin": {
     "release": "release.bin.js"

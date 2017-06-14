@@ -1,5 +1,6 @@
-⚠️ <em>Still in development</em>
+⚠️ <em>Still in development</em><br>
+⚠️ <em>Only for my personal use</em>
 
 # smart-release
 
-Only for my personal use.
+Easier to release NPM package
