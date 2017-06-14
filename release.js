@@ -14,11 +14,17 @@ function release (pkg) {
         `git push origin ${version}`,
         'echo [3/3]: git tag'
     ].join(' && ')
-    exec(sh, err => {
+    exec(sh, (err, stdout, stderr) => {
         if (err) {
-            throw err
+            console.error(err.message)
+            process.exit(1)
         }
-        console.log('done!')
+        if (stderr) {
+            console.error(stderr)
+            process.exit(1)
+        }
+        console.log('success!\n')
+        process.exit(0)
     })
 }
 
