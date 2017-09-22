@@ -13,6 +13,6 @@ npm install -g smart-release
 
 ## Usage
 
-1. Change to project directory.
-2. Update version in package.json.
-3. `release`.
+1. Go to NPM project directory
+2. Update version in package.json
+3. `release`
