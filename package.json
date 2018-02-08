@@ -2,18 +2,11 @@
   "name": "smart-release",
   "version": "1.0.0-beta.1",
   "description": "Easier to release NPM package",
-  "main": "smart-release.js",
+  "main": "release.js",
   "bin": {
     "release": "release.bin.js"
   },
-  "scripts": {
-    "test": "echo 'Error: no test specified' && exit 1"
-  },
-  "keywords": [
-    "release"
-  ],
-  "author": "Lon <longhaohe@gmail.com> (http://lon.im)",
-  "license": "MIT",
+  "homepage": "https://github.com/cnlon/smart-release#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cnlon/smart-release.git"
@@ -21,5 +14,6 @@
   "bugs": {
     "url": "https://github.com/cnlon/smart-release/issues"
   },
-  "homepage": "https://github.com/cnlon/smart-release#readme"
+  "author": "lon (http://lon.im)",
+  "license": "MIT"
 }
