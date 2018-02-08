@@ -3,14 +3,15 @@ const exec = require('child_process').exec
 function release (pkg) {
     const version = 'v' + pkg.version
     const sh = [
-        'npm publish',
-        'echo [1/3]: npm publish',
+        'git add package.json',
         `git commit -m "Bump to ${version}"`,
         'git push',
-        'echo [2/3]: git commit',
+        'echo [1/3]: commit',
         `git tag ${version}`,
         `git push origin ${version}`,
-        'echo [3/3]: git tag'
+        'echo [2/3]: tag',
+        'npm publish',
+        'echo [3/3]: publish',
     ].join(' && ')
     exec(sh, err => {
         if (err) {
