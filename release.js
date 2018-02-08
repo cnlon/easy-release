@@ -20,7 +20,7 @@ function release (pkg) {
         }
         console.log('success!')
         process.exit(0)
-    })
+    }).stdout.pipe(process.stdout)
 }
 
 module.exports = release
