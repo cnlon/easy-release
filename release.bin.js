@@ -1,9 +1,9 @@
 #!/usr/bin/env node
-const path = require('path')
-const release = require('./release.js')
+var path = require('path')
+var release = require('./release.js')
 
-const pkgPath = path.resolve('./package.json')
-let pkg
+var pkgPath = path.resolve('./package.json')
+var pkg
 try {
     pkg = require(pkgPath)
 } catch (err) {
