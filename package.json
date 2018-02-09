@@ -1,18 +1,18 @@
 {
-  "name": "smart-release",
+  "name": "easy-release",
   "version": "1.3.0",
   "description": "Easier to release NPM package",
   "main": "release.js",
   "bin": {
     "release": "release.bin.js"
   },
-  "homepage": "https://github.com/cnlon/smart-release#readme",
+  "homepage": "https://github.com/cnlon/easy-release#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cnlon/smart-release.git"
+    "url": "git+https://github.com/cnlon/easy-release.git"
   },
   "bugs": {
-    "url": "https://github.com/cnlon/smart-release/issues"
+    "url": "https://github.com/cnlon/easy-release/issues"
   },
   "author": "lon (http://lon.im)",
   "license": "MIT"

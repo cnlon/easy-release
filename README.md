@@ -1,11 +1,11 @@
-# smart-release
+# easy-release
 
 Easier to release NPM package
 
 ## Installation
 
 ```bash
-npm install -g smart-release
+npm install -g easy-release
 ```
 
 ## Usage
