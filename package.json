@@ -6,6 +6,9 @@
   "bin": {
     "release": "release.bin.js"
   },
+  "engines": {
+    "node": ">= 0.10"
+  },
   "homepage": "https://github.com/cnlon/easy-release#readme",
   "repository": {
     "type": "git",

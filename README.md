@@ -1,5 +1,9 @@
 # easy-release
 
+[![npm version](https://img.shields.io/npm/v/easy-release.svg)](https://www.npmjs.com/package/easy-release)
+[![node version](https://img.shields.io/node/v/easy-release.svg)](https://www.npmjs.com/package/easy-release)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
+
 Easier to release NPM package
 
 ## Installation
